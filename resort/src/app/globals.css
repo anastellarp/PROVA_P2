@@ -1,0 +1,93 @@
+body {
+    background: radial-gradient(circle, rgba(12, 12, 44, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg-secondary {
+    background-color: rgba(0, 0, 50, 0.9) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 50, 0.4);
+  }
+  
+  .bg-secondary h1 {
+    font-size: 2.5rem;
+    font-family: 'Orbitron', sans-serif;
+    color: #4c91eb;
+  }
+  
+  .table th,
+  .table td {
+    color: #f1f1f1;
+  }
+  
+  .form-control {
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #4c91eb;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  
+  .form-control:focus {
+    background-color: rgba(0, 0, 50, 0.8);
+    border-color: #4c91eb;
+    box-shadow: 0 0 5px #4c91eb;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .btn {
+    background-color: #4c91eb;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #3b80d1;
+  }
+  
+  .card-body,
+  .card-title,
+  .card-text {
+    color: #3b80d1;
+  }
+  
+  .modal-body {
+    font-size: 1.1rem;
+    color: #f1f1f1;
+  }
+  
+  .form-control.is-invalid {
+    border-color: #ff4d4d;
+    background-color: rgba(50, 0, 0, 0.8);
+  }
+  
+  .form-control.is-invalid + .form-control-feedback {
+    color: #ff4d4d;
+  }
+  
+  p, h3 {
+    color: #fff;
+  }
+  
+  .my-5 {
+    background-color: rgba(0, 0, 50, 0.8); 
+  }
+  
+  .my-5 .list-group-item {
+    background-color: rgba(0, 0, 70, 0.7);  
+  }
+  
+  .my-5 .list-group-item:hover {
+    background-color: rgba(0, 0, 100, 0.8);  
+  }
+  
